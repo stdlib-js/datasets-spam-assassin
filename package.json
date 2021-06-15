@@ -1,0 +1,106 @@
+{
+  "name": "@stdlib/datasets-spam-assassin",
+  "version": "0.0.0",
+  "description": "Spam Assassin public mail corpus.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "bin": {
+    "spam-assassin": "./bin/cli"
+  },
+  "main": "./lib",
+  "browser": "./lib/browser.js",
+  "directories": {
+    "benchmark": "./benchmark",
+    "bin": "./bin",
+    "data": "./data",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "scripts": "./scripts",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
+  "homepage": "https://github.com/stdlib-js/stdlib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-spam-assassin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "dependencies": {
+    "@stdlib/cli": "^0.0.x",
+    "@stdlib/fs-read-file": "^0.0.x",
+    "@stdlib/fs-read-json": "^0.0.x",
+    "@stdlib/streams-node-stdout": "^0.0.x",
+    "@stdlib/string-replace": "^0.0.x",
+    "@stdlib/utils-copy": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/assert-is-browser": "^0.0.x",
+    "@stdlib/assert-is-plain-object-array": "^0.0.x",
+    "@stdlib/assert-is-string": "^0.0.x",
+    "@stdlib/assert-is-windows": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/fs-read-dir": "^0.0.x",
+    "@stdlib/fs-rename": "^0.0.x",
+    "@stdlib/fs-write-file": "^0.0.x",
+    "@stdlib/process-exec-path": "^0.0.x",
+    "@stdlib/regexp-eol": "^0.0.x",
+    "proxyquire": "^2.0.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "email",
+    "e-mail",
+    "mail",
+    "spam",
+    "spam assassin",
+    "ham",
+    "text",
+    "classification",
+    "classifier",
+    "corpus",
+    "nlp"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
