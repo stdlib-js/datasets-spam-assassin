@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-spam-assassin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Spam Assassin public mail corpus.",
   "license": "Apache-2.0",
   "author": {
