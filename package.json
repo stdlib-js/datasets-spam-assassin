@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/datasets-spam-assassin",
+  "version": "0.0.0",
+  "description": "Spam Assassin public mail corpus.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-spam-assassin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "email",
+    "e-mail",
+    "mail",
+    "spam",
+    "spam assassin",
+    "ham",
+    "text",
+    "classification",
+    "classifier",
+    "corpus",
+    "nlp"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
