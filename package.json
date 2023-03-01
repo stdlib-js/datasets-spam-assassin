@@ -48,7 +48,8 @@
     "@stdlib/fs-read-json": "^0.0.7",
     "@stdlib/streams-node-stdout": "^0.0.7",
     "@stdlib/string-replace": "^0.0.11",
-    "@stdlib/utils-copy": "^0.0.7"
+    "@stdlib/utils-copy": "^0.0.7",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.0.8",
