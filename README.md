@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-spam-assassin/tags). For example,
+
+```javascript
 import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.2-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ The `checksum` object contains the following fields:
 <body>
 <script type="module">
 
-import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.2-esm/index.mjs';
+import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@esm/index.mjs';
 
 var data;
 var i;
