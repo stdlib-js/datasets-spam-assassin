@@ -41,97 +41,17 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/datasets-spam-assassin
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
 
-</section>
-
-<section class="usage">
-
-## Usage
-
-```javascript
-var corpus = require( '@stdlib/datasets-spam-assassin' );
-```
-
-#### corpus()
-
-Returns the [Spam Assassin][spam-assassin] public mail corpus.
-
-```javascript
-var data = corpus();
-// returns [{...},{...},...]
-```
-
-Each `array` element has the following fields:
-
--   `id`: message id (relative to message `group`)
--   `group`: message group
--   `checksum`: object containing checksum info
--   `text`: message text (including headers)
-
-The message `group` may be one of the following:
-
--   `easy-ham-1`: easier to detect non-spam e-mails (2500 messages)
--   `easy-ham-2`: easier to detect non-spam e-mails collected at a later date (1400 messages)
--   `hard-ham-1`: harder to detect non-spam e-mails (250 messages)
--   `spam-1`: spam e-mails (500 messages)
--   `spam-2`: spam e-mails collected at a later date (1396 messages)
-
-The `checksum` object contains the following fields:
-
--   `type`: checksum type (e.g., MD5)
--   `value`: checksum value
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-## Examples
-
-<!-- TODO: better example. Possibly a spam classifier. -->
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var corpus = require( '@stdlib/datasets-spam-assassin' );
-
-var data;
-var i;
-
-data = corpus();
-for ( i = 0; i < data.length; i++ ) {
-    console.log( 'Character Count: %d', data[ i ].text.length );
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -149,7 +69,7 @@ npm install -g @stdlib/datasets-spam-assassin-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: spam-assassin [options]
@@ -165,19 +85,11 @@ Options:
 
 <!-- /.usage -->
 
-<section class="notes">
 
-### Notes
-
--   The CLI supports two output formats: plain text (`txt`) and newline-delimited JSON ([NDJSON][ndjson]). The default output format is `txt`.
-
-</section>
-
-<!-- /.notes -->
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ spam-assassin
@@ -205,6 +117,11 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
+## See Also
+
+-   <span class="package-name">[`@stdlib/datasets-spam-assassin`][@stdlib/datasets-spam-assassin]</span><span class="delimiter">: </span><span class="description">spam Assassin public mail corpus.</span>
+
+
 </section>
 
 <!-- /.related -->
@@ -222,7 +139,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -240,8 +157,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-spam-assassin.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-spam-assassin
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-spam-assassin-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-spam-assassin-cli
 
 [test-image]: https://github.com/stdlib-js/datasets-spam-assassin/actions/workflows/test.yml/badge.svg?branch=v0.2.2
 [test-url]: https://github.com/stdlib-js/datasets-spam-assassin/actions/workflows/test.yml?query=branch:v0.2.2
