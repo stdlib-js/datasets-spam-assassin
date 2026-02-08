@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@deno/mod.js';
+import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.3-deno/mod.js';
 ```
 
 #### corpus()
@@ -93,7 +93,7 @@ The `checksum` object contains the following fields:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@deno/mod.js';
+import corpus from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.3-deno/mod.js';
 
 var data;
 var i;
