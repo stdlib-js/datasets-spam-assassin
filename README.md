@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-corpus = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@umd/browser.js' )
+corpus = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var corpus = require( 'path/to/vendor/umd/datasets-spam-assassin/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -120,7 +120,7 @@ The `checksum` object contains the following fields:
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-spam-assassin@v0.2.3-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
