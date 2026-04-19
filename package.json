@@ -60,6 +60,7 @@
     "@stdlib/fs-write-file": "^0.2.3",
     "@stdlib/process-exec-path": "^0.2.3",
     "@stdlib/regexp-eol": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
