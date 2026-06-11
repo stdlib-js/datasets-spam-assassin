@@ -69,7 +69,7 @@ function main() {
 		var data;
 		var i;
 
-		data = require( './../lib' )(); // eslint-disable-line stdlib/no-immediate-require
+		data = require( '@stdlib/datasets-spam-assassin' )(); // eslint-disable-line stdlib/no-immediate-require
 		for ( i = 0; i < data.length; i++ ) {
 			console.log( JSON.stringify( data[i] ) ); // eslint-disable-line no-console
 		}
